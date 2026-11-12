@@ -1,0 +1,261 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #3C4142;
+    color: #333;
+}
+
+.page-layout {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 40px 60px;
+    box-sizing: border-box;
+}
+
+.content {
+    flex: 1;
+    color: #ffffff;
+    padding-right: 20px;
+}
+
+.content h1 {
+    margin: 0 0 12px;
+    font-size: 2.5rem;
+}
+
+.secondsection {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.image {
+    position: relative;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.image::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0));
+    pointer-events: none;
+    border-radius: 18px 0 0 18px;
+}
+
+.unemployedphoto {
+    display: block;
+    width: 100%;
+    height: 62vh;
+    object-fit: cover;
+    border-radius: 18px;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+}
+
+
+
+
+
+
+.secondsection {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 24px;
+    box-sizing: border-box;
+    background: #242527;
+    color: #ffffff;
+}
+
+.secondsection .content-block {
+    width: min(900px, 100%);
+    margin: 0 auto;
+}
+
+.secondsection h2 {
+    margin: 0 0 20px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.secondsection p {
+    max-width: 760px;
+    margin: 0 auto 18px;
+    font-size: 1.08rem;
+    line-height: 1.8;
+    color: #f0f0f0;
+    text-align: center;
+}
+
+.secondsection .lead {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 22px;
+    text-align: center;
+}
+
+
+
+
+
+
+.page-layout2 {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 40px 60px;
+    box-sizing: border-box;
+}
+
+.content2 {
+    flex: 1;
+    color: #ffffff;
+    padding-right: 20px;
+}
+
+.content2 h1 {
+    margin: 0 0 12px;
+    font-size: 2.5rem;
+}
+
+.secondsection2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.image2 {
+    position: relative;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.image2::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0));
+    pointer-events: none;
+    border-radius: 18px 0 0 18px;
+}
+
+.unemployedphoto2 {
+    display: block;
+    width: 100%;
+    height: 62vh;
+    object-fit: cover;
+    border-radius: 18px;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+}
+
+
+
+
+
+
+.fourthsection {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 24px;
+    box-sizing: border-box;
+    background: #242527;
+    color: #ffffff;
+}
+
+.fourthsection .content-block4 {
+    width: min(900px, 100%);
+    margin: 0 auto;
+}
+
+.fourthsection h2 {
+    margin: 0 0 20px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.fourthsection p {
+    max-width: 760px;
+    margin: 0 auto 18px;
+    font-size: 1.08rem;
+    line-height: 1.8;
+    color: #f0f0f0;
+    text-align: center;
+}
+
+.fourthsection .lead2 {
+    max-width: 760px;
+    margin: 0 auto 18px;
+    font-size: 1.08rem;
+    line-height: 1.8;
+    color: #f0f0f0;
+    text-align: center;
+}
+
+
+
+
+
+.fifthsection {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 24px;
+    box-sizing: border-box;
+    background: #121212;
+    color: #ffffff;
+}
+
+.fifthsection .content-block5 {
+    width: min(900px, 100%);
+    margin: 0 auto;
+}
+
+.fifthsection h2 {
+    margin: 0 0 20px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.fifthsection p {
+    max-width: 760px;
+    margin: 0 auto 18px;
+    font-size: 1.08rem;
+    line-height: 1.8;
+    color: #f0f0f0;
+    text-align: center;
+}
+
+.fifthsection .lead3 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 22px;
+    text-align: center;
+}
