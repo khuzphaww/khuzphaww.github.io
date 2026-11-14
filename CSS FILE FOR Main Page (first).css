@@ -182,3 +182,32 @@
         to {
                 opacity: 1;
 }
+
+.heading4{
+        color: white;
+       position: absolute;
+        top: 48%;
+        left: 0;
+        right: 0;
+        width: max-content;
+        margin: 0 auto;
+ 
+
+        animation: fadeup 1s ease-out forwards;
+}
+
+@keyframes fadeup {
+        from {
+                opacity: 0;
+                transform: translateY(20px);
+        }
+        to {
+                opacity: 1;
+                transform: translateY(0);
+        }
+}
+
+        
+        to {
+                opacity: 1;
+}
